@@ -24,4 +24,4 @@ def handle_get():
     return jsonify({"operation_code": 1})
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=10000)
